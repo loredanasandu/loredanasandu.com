@@ -3,15 +3,14 @@ import styles from '../styles/Home.module.css'
 
 const Nav = () => {
     return (
-        <div>
-            <Link href='/' passHref>
-                <h2 className={styles.title}>Articles</h2>
-            </Link>
-
-            <Link href='/' passHref>
-                <h2 className={styles.title}>About</h2>
-            </Link>
-        </div>
+        <nav className={styles.topnav}>
+            <div>
+                <Link href='/articles' passHref>Articles</Link>
+                <Link href='/projects' passHref>Projects</Link>
+                <Link href='/notes' passHref>Notes</Link>
+                <Link href='/about' passHref>About</Link>
+            </div>
+        </nav>
     )
 }
 
