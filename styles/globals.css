@@ -61,10 +61,6 @@ a {
   transition: all .3s linear
 }
 
-.topnav a.active{
-  color: #555;
-}
-
 .title {
   line-height: 1.5;
   font-size: 1rem;
@@ -139,7 +135,11 @@ a {
     color: white;
     background: black;
   }
+
   .topnav{
     border-color: white;
+  }
+  .topnav a:hover{
+    color: #ccc;
   }
 }
