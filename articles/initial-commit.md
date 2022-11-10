@@ -32,6 +32,6 @@ Y este comando se ejecuta en esa extraña ventana que a mucha gente le da miedo 
 <img alt='Initial commit on the terminal' src='/images/articles/initial-commit-terminal.png' width='100%'>
 
 
-Así que ya he hecho mi _initial commit_ aquí también. Y todo lo que quería probar funciona bien. A decir, y para representar mejor la realidad de hacer estas cosas llamadas webs, he tenido que arreglar varias cosas (por ejemplo, la imagen no se encontraba), porque estas cosas nunca salen a la primera, y por eso he escrito este artículo de prueba tan temprano, antes de hacer todo lo demás. Ha sido una muy buena decisión publicar la web entre los primeros pasos. Ahora los _Articles_s ya están listos :)
+Así que ya he hecho mi _initial commit_ aquí también. Y todo lo que quería probar funciona bien. A decir, y para representar mejor la realidad de hacer estas cosas llamadas webs, he tenido que arreglar varias cosas (por ejemplo, la imagen no se encontraba), porque estas cosas nunca salen a la primera, y por eso he escrito este artículo de prueba tan temprano, antes de hacer todo lo demás. Ha sido una muy buena decisión publicar la web entre los primeros pasos. Ahora los _Articles_ ya están listos :)
 
 Si esto es leído alguna vez, se solicita y se agradece, si es posible, un breve comentario sobre si todo esto es legible, y el tamaño de letra, el tipo de letra, el formato son adecuados y estas cosas. Nótese que el minimalismo de esta web es altamente intencionado, y la claridad y comodidad para leer el contenido es prioritaria.

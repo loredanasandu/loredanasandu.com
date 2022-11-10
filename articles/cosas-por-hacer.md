@@ -17,9 +17,9 @@ Algunas cosillas que me quedan por hacer pronto:
 * Footer con link a wiki.
 
 Cosas que hacer en el futuro (cercano):
-* Tags para Articles
-* Tags para Notes
-* <s>gallery</s> Spoiler.
+1. Tags para Articles
+2. Tags para Notes
+3. <s>gallery</s> Spoiler.
 
 <details> 
 <summary>Cosas que hacer en el futuro (menos cercano)</summary>
