@@ -57,7 +57,7 @@ a {
 }
 
 .topnav a:hover{
-  color: #555;
+  color: #666;
   transition: all .3s linear
 }
 
@@ -140,6 +140,6 @@ a {
     border-color: white;
   }
   .topnav a:hover{
-    color: #ccc;
+    color: #bbb;
   }
 }
