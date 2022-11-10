@@ -1,15 +1,12 @@
 import '../styles/globals.css'
 
-import { Inter } from '@next/font/google'
-
 import Head from 'next/head'
 import Image from 'next/image'
 
 import Title from '../components/Title'
-import Nav from '../components/Nav'
-
 import Description from '../components/Description'
-
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -17,6 +14,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Loredana Sandu</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       </Head>
 
       <div className='container'>
@@ -26,6 +24,7 @@ function MyApp({ Component, pageProps }) {
         <main className='main'>
           <Component {...pageProps} />
         </main>
+        <Footer />
       </div>
     </>
   )

@@ -12,14 +12,14 @@ Algunas cosillas que me quedan por hacer pronto:
 * Agrupar artículos por año, quizá. Pero de cómo hacer eso tengo menos idea aún. Es interesante que en la última web que hice, conseguí hacerlo, pero ahora no sé cómo. Apunte para Loredana futura: mira cómo lo hiciste.
 * Añadir Notes.
 * Añadir Projects (con milestones?).
-* Añadir un About + links de contacto
 * Wiki (no haré demasiado spoiler sobre esto)
-* Footer con link a wiki.
+* Link a wiki en footer.
 
 Cosas que hacer en el futuro (cercano):
 1. Tags para Articles
 2. Tags para Notes
 3. <s>gallery</s> Spoiler.
+4. Add resumé.
 
 <details> 
 <summary>Cosas que hacer en el futuro (menos cercano)</summary>

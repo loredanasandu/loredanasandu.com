@@ -24,7 +24,7 @@ a {
   text-decoration: none;
 }
 
-/* --- TITLE AND TOPNAV --- */
+/* --- TITLE --- */
 
 .container {
   line-height: 1.5;
@@ -52,8 +52,9 @@ a {
   text-align: center;
 }
 
+/* --- TOPNAV --- */
+
 .topnav{
-  font-size: 1rem;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -90,6 +91,54 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+/* --- FOOTER --- */
+
+.footer{
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+  width: 100%;
+  margin: 2rem 0;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer .footer-links{
+  padding: 0 1rem;
+  display: inline-block;
+}
+
+.footer .footer-links:hover .fa{
+  opacity: 0.4;
+  transition: all .3s linear
+}
+
+.footer .fa{
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.footer .footer-links:hover .fa:hover{
+  opacity: 1.0;
+}
+
+.footer .say-hello{
+  line-height: 1;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.footer .say-hello a{
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.footer-and-copyright .copyright{
+  font-size: 0.8rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
 
 /* --- DARK MODE --- */
 
@@ -203,9 +252,21 @@ a {
   margin: 1.5rem 0;
 }
 
-.about-body .cambio-estacion{
-  text-align: center;
+.about-links{
+  padding: 0 1rem;
 }
 
+.about-links:hover .fa{
+  opacity: 0.4;
+  transition: all .3s linear
+}
 
+.about-links .fa{
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
 
+.about-links:hover .fa:hover{
+  opacity: 1.0;
+}

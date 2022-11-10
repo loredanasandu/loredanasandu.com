@@ -6,7 +6,6 @@ import Link from 'next/link'
 
 
 export default function ArticlePage({frontMatter, slug, content}) {
-    console.log(frontMatter)
     return (
         <div className='article-page'>
             <h1>{frontMatter.title}</h1>

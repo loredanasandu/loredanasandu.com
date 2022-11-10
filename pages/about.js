@@ -1,12 +1,8 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div className='about-body'>
-      <div className='cambio-estacion'>
-        <p>Change in progress...</p>
-        <p>Con el cambio de estación hay que cambiar las sábanas.</p>
-      </div>
-      <hr/>
-
       <p>
         Born in Moldova, I moved to Spain at a very early age, and grew 
         up there.
@@ -31,10 +27,19 @@ export default function Home() {
 
       <p>
         I seek to continue exercising my curiosity while discovering and building new things. 
-        Also, develop my focus on things that are worth it, and surround myself with constructive poeple 
+        Also, develop my focus on things that are worth it, and surround myself with constructive people 
         and environments.
       </p>
 
+      <p>Get in touch with me:</p>
+
+      <nav className='about-links'>
+          <div>
+              <Link href='https://github.com/loredanasandu' passHref className='fa fa-github-square'></Link>
+              <Link href='https://www.linkedin.com/in/loredana-sandu/' passHref className='fa fa-linkedin-square'></Link>
+              <Link href='mailto:loredanasandu.build@gmail.com' passHref className='fa fa-envelope-square'></Link>
+          </div>
+      </nav>
     </div>
   )
 }
