@@ -35,9 +35,9 @@ export default function Home() {
 
       <nav className='about-links'>
           <div>
-              <Link href='https://github.com/loredanasandu' passHref className='fa fa-github-square'></Link>
-              <Link href='https://www.linkedin.com/in/loredana-sandu/' passHref className='fa fa-linkedin-square'></Link>
-              <Link href='mailto:loredanasandu.build@gmail.com' passHref className='fa fa-envelope-square'></Link>
+              <Link href='https://github.com/loredanasandu' target='_blank' passHref className='fa fa-github-square'></Link>
+              <Link href='https://www.linkedin.com/in/loredana-sandu/' target='_blank' passHref className='fa fa-linkedin-square'></Link>
+              <Link href='mailto:loredana@loredanasandu.com' passHref target='_blank' className='fa fa-envelope-square'></Link>
           </div>
       </nav>
     </div>
