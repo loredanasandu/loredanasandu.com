@@ -1,9 +1,8 @@
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 
 const Nav = () => {
     return (
-        <nav className={styles.topnav}>
+        <nav className='topnav'>
             <div>
                 <Link href='/' passHref>Articles</Link>
                 <Link href='/projects' passHref>Projects</Link>

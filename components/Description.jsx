@@ -1,8 +1,6 @@
-import styles from '../styles/Home.module.css'
-
 const Description = ({text}) => {
     return (
-        <p className={styles.description}>
+        <p className='description'>
             {text}
         </p>
     )

@@ -4,12 +4,9 @@ import matter from 'gray-matter'
 
 import Link from 'next/link'
 
-import styles from '../styles/Home.module.css'
-
 export default function Home({posts}) {
-  console.log(posts)
   return (
-    <div className={styles.content}>
+    <div className='content'>
       {posts.map((post, index) => (
         <div className='article-index-entry'>
           <div className='article-index-date'>{post.frontMatter.date}, {post.frontMatter.year}</div>

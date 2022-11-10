@@ -8,7 +8,6 @@ import Image from 'next/image'
 import Title from '../components/Title'
 import Nav from '../components/Nav'
 
-import styles from '../styles/Home.module.css'
 import Description from '../components/Description'
 
 
@@ -20,11 +19,11 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.container}>
+      <div className='container'>
         <Title />
         {/* <Description text='Change in progress...'/> */}
         <Nav />
-        <main className={styles.main}>
+        <main className='main'>
           <Component {...pageProps} />
         </main>
       </div>
