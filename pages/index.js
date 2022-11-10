@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export default function Home({posts}) {
   return (
-    <div className='content'>
+    <div className='article-index'>
       {posts.map((post, index) => (
         <div className='article-index-entry'>
           <div className='article-index-date'>{post.frontMatter.date}, {post.frontMatter.year}</div>
