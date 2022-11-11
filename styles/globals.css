@@ -266,20 +266,20 @@ a {
   margin: 1rem 3rem;
   border-radius: 20px;
   background-color: #f5f5f5;
-  padding: 1rem 3rem 0.5rem 3rem;
+  padding: 1.25rem 3rem 0.75rem 3rem;
 }
 
 @media only screen and (max-width: 600px){
   .project-card{
     margin:1rem 0;
-    padding: 1rem 2rem 0.5rem 2rem;
+    padding: 1.25rem 2rem 0.75rem 2rem;
   }
 }
 
 @media only screen and (max-width: 400px){
   .project-card{
     margin:1rem 0;
-    padding: 1rem 1rem 0.5rem 1rem;
+    padding: 1.25rem 1rem 0.75rem 1rem;
   }
 }
 
@@ -304,16 +304,16 @@ a {
 }
 
 .project-title{
-  margin: 1.5rem;
+  margin: 1.25rem;
   line-height: 1.2;
 }
 
 .project-description{
-  margin: 1.5rem 0;
+  margin: 1.25rem 0;
 }
 
 .project-status{
-  margin: 2rem 0 1.25rem 0;
+  margin: 1.75rem 0 1.25rem 0;
 }
 
 .project-status div{
