@@ -9,17 +9,22 @@ Gute nacht pequeña mosca. Esto continúa siendo una prueba.
 Algunas cosillas que me quedan por hacer pronto:
 
 * Ordenar la lista de artículos por fecha. Te sorprenderá saber que no tengo ni idea de como hacerlo.
-* Agrupar artículos por año, quizá. Pero de cómo hacer eso tengo menos idea aún. Es interesante que en la última web que hice, conseguí hacerlo, pero ahora no sé cómo. Apunte para Loredana futura: mira cómo lo hiciste.
-* Añadir Notes.
-* Añadir Projects (con milestones?).
 * Wiki (no haré demasiado spoiler sobre esto)
 * Link a wiki en footer.
 
 Cosas que hacer en el futuro (cercano):
-1. Tags para Articles
-2. Tags para Notes
-3. <s>gallery</s> Spoiler.
-4. Add resumé.
+1. Agrupar artículos por año, quizá. Pero de cómo hacer eso tengo menos idea aún. Es interesante que en la última web que hice, conseguí hacerlo, pero ahora no sé cómo. Apunte para Loredana futura: mira cómo lo hiciste.
+2. Tags para Articles
+3. Tags para Notes
+4. Limitar Notes por página. Botón "Show more notes."
+5. <s>gallery</s> Spoiler.
+6. Improve SEO.
+7. Add resumé.
+8. Email subscription?: new articles / weekly selection of notes
+9. Search notes
+10. Search articles
+11. Map?
+12. Solve Warnings.
 
 <details> 
 <summary>Cosas que hacer en el futuro (menos cercano)</summary>

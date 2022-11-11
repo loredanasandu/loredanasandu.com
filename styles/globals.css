@@ -227,7 +227,7 @@ a {
 .article-page h1{
   text-align: center;
   line-height: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .article-page .article-date{
@@ -257,6 +257,110 @@ a {
   margin: 1rem 0;
 }
 
+.projects-body hr{
+  margin: 2rem 1rem;
+}
+
+.project-card{
+  border: 1px solid rgba(0,0,0,0.4);
+  margin: 1rem 3rem;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  padding: 1rem 3rem 0.5rem 3rem;
+}
+
+@media only screen and (max-width: 600px){
+  .project-card{
+    margin:1rem 0;
+    padding: 1rem 2rem 0.5rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .project-card{
+    margin:1rem 0;
+    padding: 1rem 1rem 0.5rem 1rem;
+  }
+}
+
+.project-type .fa{
+  margin: 0.5rem 0.25rem 0 0.25rem;
+  line-height: 1;
+}
+
+.project-type-date-container{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.project-type{
+  margin: 0 0.5rem;
+}
+
+.project-date{
+  margin: 0 0.5rem;
+}
+
+.project-title{
+  margin: 1.5rem;
+  line-height: 1.2;
+}
+
+.project-description{
+  margin: 1.5rem 0;
+}
+
+.project-status{
+  margin: 2rem 0 1.25rem 0;
+}
+
+.project-status div{
+  margin: 1.3rem 0 0 0;
+}
+
+.project-status a{
+  font-size: 0.9em;
+  padding: 0.5rem;
+  background-color: #efefef;
+  border: 1px solid rgba(0,0,0,0.6);
+  border-radius: 20px
+}
+
+.project-status a:hover{
+  background-color: #e3e3e3;
+  transition: all 0.3s linear
+}
+
+.project-status .fa{
+  margin: 0 0.25rem;
+}
+
+.project-status .fa-github{
+  margin: 0 0.35rem;
+}
+
+@media (prefers-color-scheme: dark){
+  .project-card{
+    border: 1px solid rgba(255,255,255,0.4);
+    background-color: #111;
+  }
+  
+  .project-status a{
+    background-color: #252525;
+  }
+  .project-status a:hover{
+    background-color: #2f2f2f;
+    transition: all 0.3s linear
+  }
+  
+  @media (hover:none){
+    .project-status a:hover{
+      color: inherit;
+    }
+  }
+}
 
 /*
 -----------
@@ -264,11 +368,75 @@ a {
 -----------
 */
 
-.notes-body{
-  text-align: center;
-  margin: 1rem 0;
+.notes-index{
+  margin: 0.5rem 0;
 }
 
+.notes-comment{
+  font-size: 0.85rem;
+}
+
+.notes-index-entry{
+  margin: 0 1rem 0 1rem;
+}
+
+.notes-index-entry hr{
+  margin: 2.5rem auto;
+  width: 60%;
+  opacity: 0.6;
+}
+
+.notes-index-title{
+  text-align: center;
+  line-height: 1;
+  margin: 0 0 1.2rem 0;
+}
+
+.notes-index-date{
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.notes-index-body {
+  line-height: 1.6;  
+}
+
+.notes-index-body a{
+  text-decoration: underline;  
+}
+
+.note-page{
+  margin: 10px 0;
+}
+
+.note-page h1{
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 1.7rem;
+}
+
+.note-page .note-date{
+  text-align: right;
+  font-size: 0.8rem;
+  line-height: 1;
+  margin: 0 0 1.2rem 0;
+}
+
+.note-page .note-body{
+  line-height: 1.6;
+}
+
+.note-page a{
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark){
+  .notes-index-entry hr{
+    margin: 2.5rem auto;
+    width: 60%;
+    opacity: 0.6;
+  }
+}
 
 /*
 -----------
