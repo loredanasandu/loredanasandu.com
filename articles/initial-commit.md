@@ -2,6 +2,7 @@
 title: 'initial commit'
 year: '2022'
 date: 'Nov 9'
+id: 2022110901
 ---
 
 Guten tag pequeña mosca. Quizá esperabas algo más elaborado con este extraño título, pero esto es solo una prueba.

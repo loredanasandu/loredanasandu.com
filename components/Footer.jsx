@@ -16,8 +16,8 @@ const Footer = () => {
                 </div>
             </div>
             <div class='copyright'>
-                <p>© 2022 <a href='/about'>Loredana Sandu</a> | <a href='https://wiki.loredanasandu.com' target='_blank'>Loredana's Wiki</a></p>
-                {/* <p>© <a href='/about'>Loredana Sandu</a> 2022 | <a href='/colophon'>Colophon</a> | <a href='/acknowledgements'>Acknowledgements</a> | <a href='https://www.wiki.loredanasandu.com/'>Loredana's Wiki</a></p> */}
+                <p>© 2022 <a href='/about'>Loredana Sandu</a></p>
+                {/* <p>© <a href='/about'>Loredana Sandu</a> 2022 | <a href='/colophon'>Colophon</a> | <a href='/acknowledgements'>Acknowledgements</a></p> */}
             </div>
         </div>
     )

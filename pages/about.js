@@ -3,16 +3,20 @@ import Link from 'next/link'
 export default function About() {
   return (
     <div className='about-body'>
-      <p>
+      {/*<p>
         Born in Moldova, I moved to Spain at a very early age, and grew 
         up there.
-      </p>
-
+      </p>*/}
+      
       <p>
-        I'm currently studying Mathematics in Vienna, focusing mainly on 
+        I build stuff with a fair amount of coding, ask myself questions out of curiosity and 
+        answer them with data. At the same time, I'm study Mathematics in Vienna, focusing mainly on 
+        Quantum Information, Complex Networks and Biomathematics. 
+
+        {/* I'm currently studying Mathematics in Vienna, focusing mainly on 
         Quantum Information, Complex Networks and Biomathematics. 
         At the same time, I'm also building stuff with a fair amount of coding, asking myself 
-        questions out of curiosity and answering them with data.
+        questions out of curiosity and answering them with data. */}
       </p>
 
       <p>
@@ -29,6 +33,11 @@ export default function About() {
         I seek to continue exercising my curiosity while discovering and building new things. 
         Also, develop my focus on things that are worth it, and surround myself with constructive people 
         and environments.
+      </p>
+
+      <p>
+        Born in Moldova, I moved to Spain at a very early age, and grew 
+        up there.
       </p>
 
       <p>Get in touch with me:</p>

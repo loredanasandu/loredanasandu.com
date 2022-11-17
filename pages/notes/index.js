@@ -6,6 +6,7 @@ import {marked} from 'marked'
 import Link from 'next/link'
 
 export default function NoteIndex({notes}) {
+  notes.sort((note1, note2) => note2.frontMatter.id - note1.frontMatter.id)
   return (
     <div className='notes-index'>
       <p className='notes-comment'>Notes and insights taken from the content I consume.</p>
@@ -17,7 +18,6 @@ export default function NoteIndex({notes}) {
           <div className='notes-index-body'>
               <div dangerouslySetInnerHTML={{__html: note.html_content}}></div>
           </div>
-            
         </div>
       ))}
     </div>

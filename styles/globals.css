@@ -263,7 +263,7 @@ a {
 
 .project-card{
   border: 1px solid rgba(0,0,0,0.4);
-  margin: 1rem 3rem;
+  margin: 1.5rem 3rem 2.5rem 3rem;
   border-radius: 20px;
   background-color: #f5f5f5;
   padding: 1.25rem 3rem 0.75rem 3rem;
@@ -271,14 +271,14 @@ a {
 
 @media only screen and (max-width: 600px){
   .project-card{
-    margin:1rem 0;
+    margin:1.5rem 0 2.5rem 0;
     padding: 1.25rem 2rem 0.75rem 2rem;
   }
 }
 
 @media only screen and (max-width: 400px){
   .project-card{
-    margin:1rem 0;
+    margin:1.5rem 0 2.5rem 0;
     padding: 1.25rem 1rem 0.75rem 1rem;
   }
 }
@@ -339,6 +339,11 @@ a {
 
 .project-status .fa-github{
   margin: 0 0.35rem;
+}
+
+.project-status p{
+  margin: -0.25rem 0.5rem;
+  color:rgba(0,0,0,0.65)
 }
 
 @media (prefers-color-scheme: dark){

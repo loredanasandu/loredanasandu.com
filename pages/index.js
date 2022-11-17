@@ -5,6 +5,7 @@ import matter from 'gray-matter'
 import Link from 'next/link'
 
 export default function Home({posts}) {
+  posts.sort((post1, post2) => post2.frontMatter.id - post1.frontMatter.id)
   return (
     <div className='article-index'>
       {posts.map((post, index) => (
@@ -40,7 +41,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts ////TODO: posts.sort(sortByDate)
+      posts
     }
   }
 }
