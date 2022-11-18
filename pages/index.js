@@ -8,6 +8,7 @@ export default function Home({posts}) {
   posts.sort((post1, post2) => post2.frontMatter.id - post1.frontMatter.id)
   return (
     <div className='article-index'>
+      <p className='articles-comment'>There are no articles yet.</p>
       {posts.map((post, index) => (
         <div className='article-index-entry'>
           <div className='article-index-date'>{post.frontMatter.date}, {post.frontMatter.year}</div>

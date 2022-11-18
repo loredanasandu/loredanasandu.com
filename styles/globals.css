@@ -215,6 +215,10 @@ small {
 --------------
 */
 
+.articles-comment{
+  font-size: 0.85rem;
+}
+
 .article-index{
   text-align:center;
   margin: 1.25rem 0;
