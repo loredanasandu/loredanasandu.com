@@ -5,7 +5,7 @@ import matter from 'gray-matter'
 import Link from 'next/link'
 
 export default function Home({posts}) {
-  posts.sort((post1, post2) => post2.frontMatter.id - post1.frontMatter.id)
+  //TEMPORARILY COMMENTED OUT posts.sort((post1, post2) => post2.frontMatter.id - post1.frontMatter.id)
   return (
     <div className='article-index'>
       <p className='articles-comment'>There are no articles yet.</p>
