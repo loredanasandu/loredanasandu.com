@@ -24,12 +24,12 @@ export default function Home({posts}) {
 }
 
 export async function getStaticProps() {
-  const files = fs.readdirSync(path.join('articles'))
+  const files = fs.readdirSync(path.join('articles', 'en'))
   
   const posts = files.map(filename => {
     const slug = filename.replace('.md','')
     const markdownWithMeta = fs.readFileSync(
-      path.join('articles',filename), 'utf-8'
+      path.join('articles','en', filename), 'utf-8'
     )
     const { data: frontMatter } = matter(markdownWithMeta)
 

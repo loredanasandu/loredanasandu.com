@@ -9,8 +9,8 @@ export default function ArticlePage({frontMatter, slug, content}) {
     return (
         <div className='article-page'>
             <h1>{frontMatter.title}</h1>
-            <div className='article-date'>{frontMatter.date}, {frontMatter.year}</div>
-            <div className='article-translations'>Translations: {frontMatter.translations.map( (translation) => (
+            <div className='article-date'>{frontMatter.date} {frontMatter.year}</div>
+            <div className='article-translations'>Traducciones: {frontMatter.translations.map( (translation) => (
                   <Link href={`${translation.url}`} passHref key={translation.language}>{`${translation.language}`}</Link>
                 )).reduce((prev, curr) => [prev, " | ", curr])}
             </div>
@@ -23,7 +23,7 @@ export default function ArticlePage({frontMatter, slug, content}) {
 }
 
 export async function getStaticPaths() {
-    const files = fs.readdirSync(path.join('articles', 'en'))
+    const files = fs.readdirSync(path.join('articles', 'es'))
     const paths = files.map(filename => ({
         params: {
             slug: filename.replace('.md','')
@@ -38,7 +38,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: {slug}}) {
-    const markdownWithMeta = fs.readFileSync(path.join('articles', 'en', slug + '.md'), 'utf-8')
+    const markdownWithMeta = fs.readFileSync(path.join('articles', 'es', slug + '.md'), 'utf-8')
     const {data: frontMatter, content} = matter(markdownWithMeta)
     
     return {

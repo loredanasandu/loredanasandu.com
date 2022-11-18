@@ -10,6 +10,10 @@ export default function NotePage({frontMatter, slug, content}) {
         <div className='note-page'>
             <h1>{frontMatter.title}</h1>
             <div className='note-date'>Note taken on {frontMatter.date}, {frontMatter.year}</div>
+            <div className='note-translations'>Translations: {frontMatter.translations.map( (translation) => (
+                  <Link href={`${translation.url}`} passHref key={translation.language}>{`${translation.language}`}</Link>
+                )).reduce((prev, curr) => [prev, " | ", curr])}
+            </div>
             <div className='note-body'>
                 <div dangerouslySetInnerHTML={{__html: marked(content)}}></div>
             </div>
@@ -19,7 +23,7 @@ export default function NotePage({frontMatter, slug, content}) {
 }
 
 export async function getStaticPaths() {
-    const files = fs.readdirSync(path.join('notes'))
+    const files = fs.readdirSync(path.join('notes', 'en'))
     const paths = files.map(filename => ({
         params: {
             slug: filename.replace('.md','')
@@ -34,7 +38,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: {slug}}) {
-    const markdownWithMeta = fs.readFileSync(path.join('notes', slug + '.md'), 'utf-8')
+    const markdownWithMeta = fs.readFileSync(path.join('notes', 'en', slug + '.md'), 'utf-8')
     const {data: frontMatter, content} = matter(markdownWithMeta)
     
     return {
