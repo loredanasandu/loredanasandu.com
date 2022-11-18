@@ -9,7 +9,7 @@ export default function Home({posts}) {
   return (
     <div className='article-index'>
       <p className='articles-comment'>There are no articles yet.</p>
-      {posts.map((post, index) => (
+      {/*TEMPORARILY COMMENTED OUT {posts.map((post, index) => (
         <div className='article-index-entry'>
           <div className='article-index-date'>{post.frontMatter.date}, {post.frontMatter.year}</div>
           <div className='article-index-title'>
@@ -19,11 +19,12 @@ export default function Home({posts}) {
           </div>
           
         </div>
-      ))}
+      ))} */}
     </div>
   )
 }
 
+/* TEMPORARILY COMMENTED OUT
 export async function getStaticProps() {
   const files = fs.readdirSync(path.join('articles', 'en'))
   
@@ -45,4 +46,4 @@ export async function getStaticProps() {
       posts
     }
   }
-}
+} */
