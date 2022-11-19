@@ -10,7 +10,7 @@ export default function About() {
       
       <p>
         I build stuff with a fair amount of coding, ask myself questions out of curiosity and 
-        answer them with data. At the same time, I'm study Mathematics in Vienna, focusing mainly on 
+        answer them with data. At the same time, I'm studying Mathematics in Vienna, focusing mainly on 
         Quantum Information, Complex Networks and Biomathematics. 
 
         {/* I'm currently studying Mathematics in Vienna, focusing mainly on 

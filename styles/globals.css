@@ -10,7 +10,6 @@ body {
   background-color: #f8f8f8;
   font-size: 16px;
   letter-spacing: 0.01rem;
-  
 }
 
 a {
@@ -26,7 +25,7 @@ blockquote {
 
 @media (prefers-color-scheme: dark){
   blockquote{
-    border-color: #353535;
+    border-color: #3c3c3c;
   }
 }
 
@@ -277,6 +276,17 @@ small {
   }
 }
 
+@media (prefers-color-scheme: dark){
+  .article-translations a{
+    text-decoration: underline dotted rgba(255,255,255, 0.45);
+  }
+  
+  .article-translations a:hover{
+    text-decoration: underline dotted rgba(255,255,255, 0.7);
+    transition: all 0.3s linear
+  }
+}
+
 .article-page .article-body{
   line-height: 1.6;
 }
@@ -458,6 +468,17 @@ small {
   }
 }
 
+@media (prefers-color-scheme: dark){
+  .notes-index-translations a{
+    text-decoration: underline dotted rgba(255,255,255, 0.45);
+  }
+  
+  .notes-index-translations a:hover{
+    text-decoration: underline dotted rgba(255,255,255, 0.7);
+    transition: all 0.3s linear
+  }
+}
+
 .notes-index-body {
   line-height: 1.6;  
 }
@@ -500,6 +521,17 @@ small {
 @media (hover:none){
   .note-translations a:hover{
     text-decoration: inherit;
+  }
+}
+
+@media (prefers-color-scheme: dark){
+  .note-translations a{
+    text-decoration: underline dotted rgba(255,255,255, 0.45);
+  }
+  
+  .note-translations a:hover{
+    text-decoration: underline dotted rgba(255,255,255, 0.7);
+    transition: all 0.3s linear
   }
 }
 

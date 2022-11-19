@@ -18,7 +18,7 @@ export default function Projects() {
 
       <div className='project-card'>
         <div className='project-type-date-container'>
-          <div className='project-type'><span className='fa fa-link'></span>Research</div>
+          <div className='project-type'><span className='fa fa-search'></span>Research</div>
           <div>|</div>
           <div className='project-date'>November 2022</div>
         </div>

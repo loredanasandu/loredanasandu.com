@@ -17,7 +17,7 @@ Una cita de Hermann Hesse en _Schriften zur Literatur I_, publicado en 1970:
 <p> [&#8230;] [S]ólo existe una ley y un camino para cultivarse y crecer intelectualmente con los libros, y es el respeto a lo que se está leyendo, la paciencia de querer comprender, la humildad de tolerar, escuchar. El que solamente lee como pasatiempo, por mucho y bueno que sea lo que lea, leerá y olvidará y luego será tan pobre como antes. Pero al que lee como se escucha a los amigos, los libros le revelarán sus riquezas y serán suyos. Lo que lea no resbalará, ni se perderá, sino que se quedará con él y le pertenecerá y consolará, como sólo los amigos son capaces de hacerlo.</p>
 </blockquote>
 
-Esta cita de Hesse es un recordatorio del valor de invertir más tiempo en el contenido que consumimos, escogiendo más cuidadosamente y teniendo la paciencia para _vivir en las páginas_ y desarrollar un entendimiento más profundo.
+Un recordatorio del valor de invertir más tiempo en el contenido que consumimos, escogiendo más cuidadosamente y teniendo la paciencia para _vivir en las páginas_ y desarrollar un entendimiento más profundo.
 
 Tengo la tendencia de leer mucho contenido, parte de él de manera casual, y reunir muchos libros, artículos y _podcasts_. Y ciertamente hay valor en mantener una perspectiva amplia, explorar diferentes temas y leer varias obras diversas, en lugar de limitar el contenido que consumimos. Pero es solo a través de la concentración y la reflexión profunda que el contenido finalmente nos enriquece y se vuelve valioso. Con el tiempo, he descubierto que escribir sobre lo que leo o escucho me ayuda a desarrollar esta claridad y, en la mayoría de los casos, me lleva a desarrollar perspectivas e ideas valiosas.
 
