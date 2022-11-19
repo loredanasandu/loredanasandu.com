@@ -434,16 +434,14 @@ small {
 .notes-index-entry hr{
   margin: 2.5rem auto;
   width: 60%;
-  border-color:rgba(0,0,0,0.09);
-  background-color: rgba(0,0,0,0.10);
-  border-width: 1px;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,0.16);
   height: 0;
 }
 
 @media (prefers-color-scheme: dark){
   .notes-index-entry hr{
-    border-color:rgba(255,255,255,0.22);
-    background-color: rgba(255,255,255,0.23)
+    border-bottom: 2px solid rgba(255,255,255,0.4);
   }
 }
 
